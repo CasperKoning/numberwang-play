@@ -1,8 +1,15 @@
 # Basic Play application with a single endpoint
 
 ## How to run
+Development mode:
 ```bash
 sbt run
+```
+
+Production mode:
+```bash
+sbt stage
+target/universal/stage/bin/numberwang-play -Dhttp.port=${PORT}
 ```
 
 ## Environment
