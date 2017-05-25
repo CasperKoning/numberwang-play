@@ -12,6 +12,12 @@ sbt stage
 target/universal/stage/bin/numberwang-play -Dhttp.port=${PORT}
 ```
 
+Heroku mode:
+```bash
+sbt stage
+heroku local web
+```
+
 ## Environment
 This application can be configured via environment variables. Additionally, you can configure the environment by providing a `.env` file. A sample file of what can be configured is given in the form of `.env.sample`
 
