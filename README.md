@@ -5,5 +5,8 @@
 sbt run
 ```
 
+## Environment
+This application can be configured via environment variables. Additionally, you can configure the environment by providing a `.env` file. A sample file of what can be configured is given in the form of `.env.sample`
+
 ## Interface
 This application provides (next to the standard `/assets`) a single endpoint on `/numberwang`. Currently, this endpoint only prints a silly message.
